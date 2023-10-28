@@ -1,0 +1,22 @@
+[
+    {
+      "question": "what club team does ronaldinho play for?",
+      "gpt_out": "I need to find out which club team Ronaldinho plays for.\nAction 1 Question[Does Ronaldinho still play for a club team?]\nAnswer 1 Yes, he does.\nThought 2 Ronaldinho is still playing for a club team, so I need to find out which one. Action 2 Multi_Answer_Question[What club team(s) does Ronaldinho play for?]\nAnswer 2 Brazil national football team, Quer\u00e9taro F.C.\nThought 3 Ronaldinho plays for both Brazil national football team and Quer\u00e9taro F.C.\nAction 3 Finish[Brazil national football team, Quer\u00e9taro F.C.]"
+    },
+    {
+      "question": "what continent is australia in?",
+      "gpt_out": "I need to find out which continent Australia is a part of.\nAction 1 Question[What continent is Australia in?] \nAnswer 1 Australian Continent, Oceania\nThought 2 Australia is in the Australian Continent or Oceania.\nAction 2 Finish[Australian Continent, Oceania]"
+    },
+    {
+      "question": "where was stephen g. breyer born?",
+      "gpt_out": "I need to find out where Stephen G. Breyer was born. \nAction 1 Question[Where was Stephen G. Breyer born?] \nAnswer 1 San Francisco \nThought 2 Stephen G. Breyer was born in San Francisco. \nAction 2 Finish[San Francisco]"
+    },
+    {
+      "question": "where do samsung lions play?",
+      "gpt_out": "I need to find out where the Samsung Lions play. \n\nAction 1 Question[What is the Samsung Lions?] \n\n\nAnswer 1 The Samsung Lions are a professional baseball team in South Korea. \n\nThought 2 Now that I know what the Samsung Lions are, I need to find out where they play. \n\nAction 2 Question[Where do the Samsung Lions play their home games?] \n\n\nAnswer 2 The Samsung Lions play their home games at Daegu Baseball Stadium. \n\nThought 3 Daegu Baseball Stadium is where the Samsung Lions play their home games. \n\nAction 3 Finish[Daegu Baseball Stadium]"
+    },
+    {
+      "question": "where was the gettysburg war located?",
+      "gpt_out": "I need to find out the location of the Gettysburg war. \n\nAction 1 Question[Where did the Gettysburg war take place?] \n\nAnswer 1 Adams County, Gettysburg, Pennsylvania \n\nThought 2 The Gettysburg war took place in Adams County, Gettysburg, Pennsylvania. \n\nAction 2 Finish[Adams County, Gettysburg, Pennsylvania]"
+    }
+]
