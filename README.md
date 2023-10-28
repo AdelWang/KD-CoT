@@ -7,6 +7,10 @@ kd_cot
 ├─ CoT_collection_examples : Examples of our CoT collection (with only GPT3.5 outputs)
 │  ├─ webqsp.json
 │  └─ cwq.json
+│  ├─ webqsp
+│  │  └─ train.json
+│  └─ cwq
+│      └─ train.json
 ├─ README.md
 ├─ bm25_build
 │  └─ bm25_build_index.sh : Build BM25 index
