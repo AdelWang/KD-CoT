@@ -3,6 +3,7 @@ OUTPUT_DIR='''Your output dir'''
 DATA_DIR='''Your data dir'''
 DEEPSPEED_CONFIG='./data_utils/deepspeed_config.json'
 # input file format: .json with one instance per line. {'input': input_text, "target": target_text}
+# For cot-finetuning, please remove the argument --prompt as we already define it (see data in CoT_collection_examples/cwq/train.json)
 deepspeed main.py \
     --model_name_or_path $MODEL_NAME \
     --output_dir $OUTPUT_DIR \
@@ -10,7 +11,6 @@ deepspeed main.py \
     --batch_size 32 \
     --deepspeed_config $DEEPSPEED_CONFIG \
     --gradient_accumulation_steps 2 \
-    --max_seq_length 256 \
     --max_length 4096 \
     --save_steps 10000 \
     --learning_rate 1e-4 \
