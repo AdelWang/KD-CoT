@@ -1,6 +1,6 @@
 from GPT_inference_steps import GPT_Infenrence
 from Retriever.Retriever import DPR_retriever, BM25_retriever
-from Reader.FiD_reader import FiD_reader
+from Reader.Reader import FiD_reader
 
 TEMP_FILE_DIR = './temp_file'
 CWQ_PATH = 'your_cwq_test_data'
